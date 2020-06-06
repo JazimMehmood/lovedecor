@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>lovedecor.</title>
+    <script src="app.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <!-- Css style -->
+    <link rel="stylesheet" href="style.css">
+    <!-- font awsome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- googlefonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Acme&family=Courgette&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Rajdhani&family=Raleway:wght@200&display=swap"
+        rel="stylesheet">
+</head>
+
+<body onload="myFunction()">
+    <div id="loading"></div>
+    <!-- Top text-->
+    <div class="container-fluid text-center top-top">
+        <div class="row">
+            <div class="col">
+                <span id="love">love</span><span id="decor">d&#232cor</span>
+            </div>
+        </div>
+    </div>
+    <!-- Top text end  -->
+
+    <!-- Navbar Start -->
+    <div class="container sticky-top">
+        <nav class="navbar navbar-expand-lg navbar-light " id="navigation-bar" style="background-color: #F6F4F2;">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03"
+                aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+                <ul class="navbar-nav mx-auto mt-2 mt-lg-0 ">
+                    <li class="nav-item active">
+                        <a class="nav-link hover-link" href="index.html" style="color: #425664;">Home <span
+                                class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link hover-link " href="#">Our History <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item active dropdown">
+                        <a class="nav-link dropdown-toggle hover-link " href="#" id="navbarDropdownMenuLink"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            The Collections
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item hover-link2 " href="thecollections.html">Kitchens</a>
+                            <a class="dropdown-item hover-link2 " href="thecollections.html">Wardrobes</a>
+                            <a class="dropdown-item hover-link2 " href="thecollections.html">Furniture</a>
+                            <a class="dropdown-item hover-link2 " href="#">Artisan Wooden Flooring</a>
+                        </div>
+                    </li>
+                    <li class="nav-item active dropdown">
+                        <a class="nav-link dropdown-toggle hover-link " href="#" id="navbarDropdownMenuLink"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Design Studio
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item hover-link2 " href="architecture.html">Architecture</a>
+                            <a class="dropdown-item hover-link2 " href="#">Interior Design</a>
+
+                        </div>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link hover-link " href="joinus.html">Join Us <span
+                                class="sr-only">(current)</span></a>
+                    </li>
+
+
+                </ul>
+
+            </div>
+        </nav>
+    </div>
+    <!-- Navbar End -->
+    <!-- Top Text Start -->
+    <div class="container">
+        <div class="row">
+            <div class="col text-center">
+                <p class="joinus-head">Join Us</p>
+                <p class="joinus-text">Apply Now and Start a Dream Career With Us!</p>
+            </div>
+
+        </div>
+
+    </div>
+    <!-- Top Text End -->
+    <!-- Form Start -->
+
+    <div class="container">
+        <div class="row">
+            <div class="col-1"></div>
+            <div class="col-10 form-joinus">
+                <form class="needs-validation" novalidate>
+                    <div class="form-row">
+                        <div class="col-md-4 mb-3">
+                            <label for="validationCustom01">First name</label>
+                            <input type="text" class="form-control" id="validationCustom01"
+                                placeholder=" Enter Your First name" value="" required>
+                            <div class="valid-feedback">
+                                Looks good!
+                            </div>
+                        </div>
+                        <div class="col-md-4 mb-3">
+                            <label for="validationCustom02">Middle name</label>
+                            <input type="text" class="form-control" id="validationCustom02"
+                                placeholder="Enter your Middle Name" value="" required>
+                            <div class="valid-feedback">
+                                Looks good!
+                            </div>
+                        </div>
+                        <div class="col-md-4 mb-3">
+                            <label for="validationCustomUsername">Last Name</label>
+                            <div class="input-group">
+
+                                <input type="text" class="form-control" id="validationCustomUsername"
+                                    placeholder="Enter Your Last Name" aria-describedby="inputGroupPrepend" required>
+                                <div class="valid-feedback">
+                                    Looks good!
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="col-md-6 mb-3">
+                            <label for="validationCustom03">City</label>
+                            <input type="text" class="form-control" id="validationCustom03" placeholder="City" required>
+                            <div class="valid-feedback">
+                                Looks good!
+                            </div>
+
+                        </div>
+                        <div class="col-md-3 mb-3">
+                            <label for="validationCustom04">State</label>
+                            <input type="text" class="form-control" id="validationCustom04" placeholder="State"
+                                required>
+                            <div class="valid-feedback">
+                                Looks good!
+                            </div>
+
+                        </div>
+                        <div class="col-md-3 mb-3">
+                            <label for="validationCustom05">Zip</label>
+                            <input type="text" class="form-control" id="validationCustom05" placeholder="Zip" required>
+                            <div class="valid-feedback">
+                                Looks good!
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="col-md-4 mb-3">
+                            <label for="validationCustom01">Current Address</label>
+                            <input type="text" class="form-control" id="validationCustom01"
+                                placeholder=" Enter Your Current Address" value="" required>
+                            <div class="valid-feedback">
+                                Looks good!
+                            </div>
+                        </div>
+                        <div class="col-md-4 mb-3">
+                            <label for="validationCustom02">Enter Your Email</label>
+                            <input type="text" class="form-control" id="validationCustom02"
+                                placeholder="Enter your Email" value="" required>
+                            <div class="valid-feedback">
+                                Looks good!
+                            </div>
+                        </div>
+                        <div class="col-md-4 mb-3">
+                            <label for="validationCustomUsername">Contact No.</label>
+                            <div class="input-group">
+
+                                <input type="number" class="form-control" id="validationCustomUsername"
+                                    placeholder="Enter Your Contact No" aria-describedby="inputGroupPrepend" required>
+                                <div class="valid-feedback">
+                                    Looks good!
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-row">
+
+                        <div class="form-group ">
+                            <label for="validationCustomUsername">Applying For Position.</label>
+
+                            <select class="custom-select" required>
+                                <option value="">Architect</option>
+                                <option value="1">Interior Designer</option>
+                                <option value="2">Civil Engineer</option>
+                                <option value="3">Worker</option>
+                            </select>
+                            <div class="invalid-feedback">Example invalid custom select feedback</div>
+                        </div>
+
+                    </div>
+
+
+                    <div class="form-group">
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+                            <label class="form-check-label" for="invalidCheck">
+                                Agree to terms and conditions
+                            </label>
+                            <div class="invalid-feedback">
+                                You must agree before submitting.
+                            </div>
+                        </div>
+                    </div>
+                    <button class="btn  btn-joinus" type="submit">Submit form</button>
+                </form>
+
+                <script>
+                    // Example starter JavaScript for disabling form submissions if there are invalid fields
+                    (function () {
+                        'use strict';
+                        window.addEventListener('load', function () {
+                            // Fetch all the forms we want to apply custom Bootstrap validation styles to
+                            var forms = document.getElementsByClassName('needs-validation');
+                            // Loop over them and prevent submission
+                            var validation = Array.prototype.filter.call(forms, function (form) {
+                                form.addEventListener('submit', function (event) {
+                                    if (form.checkValidity() === false) {
+                                        event.preventDefault();
+                                        event.stopPropagation();
+                                    }
+                                    form.classList.add('was-validated');
+                                }, false);
+                            });
+                        }, false);
+                    })();
+                </script>
+            </div>
+            <div class="col-1"></div>
+
+        </div>
+    </div>
+
+
+
+
+    <!-- Form End -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- Brands Start -->
+    <div class="container-fluid" style="margin-top: 2em; margin-bottom: 2em; ">
+        <div class="row text-center ">
+            <div class="col-lg-2 col-sm-3 col-6 ">
+                <img src="images/8-lastra.png" class="img-fluid firm-icon" alt="">
+            </div>
+            <div class="col-lg-2 col-sm-3 col-6  ">
+                <img src="images/7-pianca.png" class="img-fluid firm-icon" alt="">
+            </div>
+            <div class="col-lg-2 col-sm-3 col-6  ">
+                <img src="images/5-talentii.png" class="img-fluid firm-icon" alt="">
+            </div>
+            <div class="col-lg-2 col-sm-3 col-6 ">
+                <img src="images/4-cierree.png" class="img-fluid  firm-icon" alt="">
+            </div>
+            <div class="col-lg-2 col-sm-3 col-6  ">
+                <img src="images/3-ariitco.png" class="img-fluid firm-icon" alt="">
+            </div>
+            <div class="col-lg-2 col-sm-3 col-6  ">
+                <img src="images/1-valcucine.png" class="img-fluid firm-icon" alt="">
+            </div>
+        </div>
+
+    </div>
+    <!-- Brands End -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- Footer start -->
+    <div class="container-fluid main-footer" style="background-color: #18181E; color: #DEC79B;">
+        <div class="row" style="padding: 2em;">
+            <div class="col-lg-4 col-md-6 text-center">
+                <div class="row">
+                    <div class="col" style="margin: 2em;">
+                        Email<br>
+                        info@lovedecor.com
+
+                    </div>
+                    <div class="w-100"></div>
+                    <div class="col" style="margin: 2em;">
+                        Telephone<br>
+                        021xxxxxxxx
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 text-center">
+                <i class="fa fa-facebook-f font-awesome"></i>
+                <i class="fa fa-instagram font-awesome"></i>
+                <i class="fa fa-twitter font-awesome"></i>
+                <i class="fa fa-whatsapp font-awesome"></i>
+                <i class="fa fa-linkedin-in font-awesome"></i>
+            </div>
+            <div class="col-lg-4 col-md-6 text-center">
+                <div class="row">
+                    <div class="col" style="margin: 2em;">
+                        Timings<br>
+                        Mon-Sat<br>
+                        9am-6pm
+                    </div>
+                    <div class="w-100"></div>
+
+                    <div class="col" style="margin: 2em;">
+                        Head Office<br>
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ullam, accusantium?
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer End -->
+    <!-- scroll to top Start -->
+    <!-- <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button> -->
+    <i class="fa fa-arrow-circle-up" onclick="topFunction()" id="myBtn" title="Go to top"></i>
+
+
+    <!-- scroll to top End -->
+    <script>
+        // $(document).ready(function(){
+        // 	$('div#loading').removeAttr('id');
+        // });
+        var preloader = document.getElementById("loading");
+        // window.addEventListener('load', function(){
+        // 	preloader.style.display = 'none';
+        // 	})
+
+        function myFunction() {
+            preloader.style.display = 'none';
+        };
+
+
+
+        //Get the button:
+        mybutton = document.getElementById("myBtn");
+
+        // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function () { scrollFunction() };
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                mybutton.style.display = "block";
+            } else {
+                mybutton.style.display = "none";
+            }
+        }
+
+        // When the user clicks on the button, scroll to the top of the document
+        function topFunction() {
+            document.body.scrollTop = 0; // For Safari
+            document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+        }
+
+    </script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
